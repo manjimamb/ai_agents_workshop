@@ -8,7 +8,7 @@ MODEL = os.getenv("LLM_MODEL", "gpt-4o")
 
 st.set_page_config(page_title="AI Agent Workshop", page_icon="🧭")
 st.title("🧭 Minimal AI Agent")
-st.caption("Model‑tool loop with Streamlit UI (for AI workshop on 26th Aug 2025).")
+st.caption("Made by Manjima on 26th Aug 2025).")
 
 with st.sidebar:
     st.subheader("Settings")
